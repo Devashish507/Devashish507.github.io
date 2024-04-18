@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Complex Website</title>
+    <link href='https://fonts.googleapis.com/css?family=Limelight' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: white;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            height: 720px;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        ul {
+            color: yellow;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+
+        nav ul li {
+            padding: 10px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        main {
+            padding: 10px;
+        }
+
+        section {
+            margin-bottom: 20px;
+        }
+
+        h2 {
+            margin-bottom: 10px;
+        }
+
+        button {
+            padding: 5px;
+            margin-top: 10px;
+            background-color: #333;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .hidden {
+            display: none;
+        }
+
+        #back {
+            margin-left: 10px;
+        }
+
+        footer {
+            background-color: #000000;
+            color: white;
+            padding: 10px;
+            text-align: center;
+            margin-top: 50px;
+        }
+
+        body {
+            background-color: yellow;
+        }
+
+        .dnk {
+            font-size: 400px;
+            font-family: 'limelight';
+            margin-left: 300px;
+            color: yellow;
+        }
+
+        .con {
+            font-family: 'limelight';
+            font-size: 80px;
+            margin-left: 400px;
+            color: yellow;
+
+        }
+
+        .yellow {
+            height: 520px;
+        }
+
+        .container {
+            position: relative;
+            width: 100%;
+            height: 100%;
+        }
+
+        #imo {
+            height: 300px;
+
+        }
+
+        .black {
+            height: 720px;
+            background-color: black;
+            margin-left: 0px;
+            margin-right: 0px;
+        }
+
+        #oppo {
+            margin-left: 500px;
+        }
+
+        #home {
+            height: 425px;
+        }
+
+        .btn {
+            background-color: #000000;
+            color: white;
+            padding: 16px;
+            font-size: 16px;
+            border: none;
+            outline: none;
+        }
+
+        .dropdown {
+            position: absolute;
+            display: inline-block;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: black;
+            min-width: 160px;
+            z-index: 1;
+        }
+
+        .dropdown-content a {
+            color: white;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+        }
+
+        .dropdown-content a:hover {
+            background-color: yellow
+        }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+
+        .btn:hover,
+        .dropdown:hover .btn {
+            background-color: yellow;
+        }
+
+        .polo {
+            font-size: 50px;
+            font-family: 'limelight';
+            color: yellow;
+        }
+
+        .blacko {
+            height: 850px;
+            background-color: black;
+            margin-left: 0px;
+            margin-right: 0px;
+
+        }
+
+        .tablets {
+            height: 50px;
+            background-color: #000000;
+            margin-top: 100px;
+            border-radius: 100px;
+            width: 1450px;
+            height: 120px;
+        }
+
+        #check {
+            size-adjust: 100px;
+        }
+
+        .fa-facebook {
+            background: #3B5998;
+            color: white;
+        }
+
+        .fa-twitter {
+            background: #55ACEE;
+            color: white;
+        }
+
+        .fa-youtube {
+            background: #bb0000;
+            color: white;
+        }
+
+
+
+        .fa-instagram {
+            background: #125688;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <header style="background-color: black;">
+        <div class="black">
+            <nav>
+                <ul id="navbar">
+                    <li><button class="btn">Button</button>
+                        <div class="dropdown">
+                            <button class="btn" style="border-left:1px solid #000000">
+                                <i class="fa fa-caret-down"></i>
+                            </button>
+                            <div class="dropdown-content">
+                                <a
+                                    href="https://www.google.com/search?sca_esv=b2f01f239ded54f9&rlz=1C1ONGR_enIN1066IN1066&q=living+rooms&uds=AMwkrPscwbmu-hpwMpNy6SJ-n9XQHcsZZZdvWIMkLZ8BYa-l4uFvnTkrZ4kBgMGZft1SXpWxyTugen_rF2dgRTFZmlqNCLVtVKlaBA_rtcpEoeQQ2pCs4OKT6hjVxnNviZMIjA2lq1B-4nVpj4iAI_de-ZF3-OzL4EDXY5WyrT1zWUDjTCahOqKLHDy1oonvjG8e9EiT4JfBCMeef1qEV-yJklfAtKMRkMZAW0S-yFLSnOCp_1TC84EAsSWfHb6pnOgObO0QByXpTw3Q15koKGe8Wm_O7pCL43ZhgS9rW3LW3yqpMQIrvvI&udm=2&prmd=isvmnbtz&sa=X&sqi=2&ved=2ahUKEwjCvLeQga6FAxUF8DgGHQXaBYsQtKgLegQIEhAB&biw=1536&bih=695&dpr=1.25">Master
+                                    Halls</a>
+                                <a
+                                    href="https://www.google.com/search?sca_esv=b2f01f239ded54f9&rlz=1C1ONGR_enIN1066IN1066&q=kitchens&uds=AMwkrPsTJn1OiNQqpGQMzxslEY7A88He7om0UedwqHFE8CsLaSiKUmAYrskLm1KUrg6tQxvK4LCB0VMheuK7fqR0e28l4-Ihb3xlIySMEv0bIso_ZZgZBUKGJSvbQULc3UyKY9ixPSzvORpdT-c_RiSvnPSn-Epsuo6Hwx1ABTXuHlqDn_pGOIQW1qKNeNMaf1rFwM0qoxRlFaK7Bcp284kyDrkSJTZXxsXln7rRfnM4K2k5qF5U2lPRpjcfiftLFqfdgYHN-3zb2_AqjBEQu8w9yyMI1oc__h9k4gyBy3Ru58PWR0wugHQ&udm=2&prmd=isvmnbtz&sa=X&ved=2ahUKEwihyqujga6FAxXPjVYBHfsxDZQQtKgLegQIFRAB&biw=1536&bih=695&dpr=1.25">Kitchens</a>
+                                <a
+                                    href="https://www.google.com/search?sca_esv=b2f01f239ded54f9&rlz=1C1ONGR_enIN1066IN1066&q=master+bedrooms&uds=AMwkrPszIC14Zlyd2wGwocCkqNMddPOcqmfd6XIMU7oK37n99okftWVFGnzKs4KpygFDCMLHPTwqb-UJz1lQxdPU4urDl4tSbg_8CB7fZzBTjg13p6HOZxIMbTV4IUDwnDlYTqExo9Gq7XQJKht9KLelncatNhPxnHWl4M8eWelob4otyh83twQfDt7I1R41qRVnNfT2YAOM_fjLjphnFmTUVftKWw_UYD0mYK_vYtxO4c2QL-COSZoH79qE5Cd_8AFESCsWHh_ff9G5kVKolARM6RDKWOn-X0Qy_tlIZgQSIInk3o9wPGw&udm=2&prmd=isvnmbtz&sa=X&ved=2ahUKEwi44rLkgK6FAxUrsVYBHSHWCwUQtKgLegQIExAB&biw=1536&bih=695&dpr=1.25">Master
+                                    Bedrooms</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li style="margin-left: 400px ; margin-top: 30px;"><a href="about.html">About</a></li>
+                    <li style="margin-left: 400px; margin-top: 30px;"><a href="contact.html">Contact</a></li>
+                    <li style="margin-left: 400px; margin-top: 30px;""><a href="index.html">Home</a></li>
+
+                </ul>
+                <h1 class="dnk">DNK</h1>
+                <h1 class="con">Constructions</h1>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="yellow">
+            <section id="home">
+                <h2>Our Projects</h2>
+                <p>We, build each house as our own house.</p>
+                <div class="container">
+                    <img class="image top-left" id="imo" src="h1.jpg" alt="Top Left Image">
+                    <img class="image top-right" id="imo" src="h2.jpg" alt="Top Right Image">
+                    <img class="image bottom-left" id="imo" src="h3.jpg" alt="Bottom Left Image">
+                    <img class="image bottom-right" id="imo" src="h5.jpg" alt="Bottom Right Image">
+                    <img class="image bottom-right" id="imo" src="h6.jpg" alt="Bottom Right Image">
+                    <img class="image bottom-right" id="imo" src="h7.jpg" alt="Bottom Right Image">
+
+                </div>
+                <button id="show-more">Show More</button>
+            </section>
+            <div class="blacko">
+                <h1 class="dnk" id="oppo">15</h1>
+                <h1 id="oppo" class="polo" style="color: yellow;">Years of experience</h1>
+            </div>
+            <h1></h1>
+            <div id="tab">
+                <div class="tablets">
+
+                    <h1
+                        style="color:yellowgreen; font-family: 'limelight'; margin-left: 50px; font-size: 80px; margin-top: 20px;">
+                        <i id="check" class="fa-solid fa-check"></i> &nbsp; &nbsp; &nbsp; &nbsp;Quality Material
+                    </h1>
+                </div>
+                <div class="tablets">
+
+                    <h1
+                        style="color: yellowgreen; font-family: 'limelight'; margin-left: 50px; font-size: 80px; margin-top: 20px;">
+                        <i id="check" class="fa-solid fa-check"></i> &nbsp; &nbsp; &nbsp; &nbsp;Expert Crew
+                    </h1>
+                </div>
+                <div class="tablets">
+
+                    <h1
+                        style="color: yellowgreen; font-family: 'limelight'; margin-left: 50px; font-size: 80px; margin-top: 20px;">
+                        <i id="check" class="fa-solid fa-check"></i> &nbsp; &nbsp; &nbsp; &nbsp;Timely Maintainence
+                    </h1>
+                </div>
+                <div class="text">
+                    <p><b>Quality:</b> We believe in delivering nothing but the highest quality craftsmanship, ensuring that every project meets or exceeds industry standards.
+                        <br>
+                        <b>Integrity:</b> We conduct ourselves with honesty, transparency, and accountability in all our interactions, fostering trust and long-lasting relationships with clients, partners, and communities.
+                        <br>
+                        <b>Innovation:</b> We embrace innovation and technology to drive efficiency, sustainability, and value in every aspect of our operations, from design and construction to project management and beyond.
+                        <br>
+                        <b>Safety:</b> The safety of our employees, subcontractors, and stakeholders is paramount. We adhere to strict safety protocols and invest in ongoing training and education to maintain a culture of safety excellence.
+                        <br>
+                        <b>Sustainability:</b> We are committed to environmental stewardship and sustainable building practices, minimizing our ecological footprint and creating healthier, more resilient communities for future generations.
+                        
+                        <h1>Our Services</h1>
+                        
+                        Summit Builders offers a comprehensive range of construction services tailored to meet the unique needs and objectives of each client:
+                        
+                        Pre-construction Services: From site evaluation and feasibility studies to budgeting and value engineering, our experienced team provides expert guidance and support throughout the pre-construction phase.
+                        
+                        General Contracting: As a full-service general contractor, Summit Builders oversees every aspect of the construction process, from project planning and scheduling to procurement and execution, ensuring timely completion and exceptional quality.
+                        
+                        Design-Build: Our integrated design-build approach streamlines the construction process by combining design and construction services under one roof, delivering greater efficiency, cost savings, and collaboration from concept to completion.
+                        
+                        Construction Management: With a focus on communication, coordination, and collaboration, our construction management team ensures that projects are completed on time, within budget, and to the highest standards of quality and craftsmanship.</p>
+
+                </div>
+
+            </div>
+            <div class="contactus">
+                <h1 style="font-family:'limelight'; font-size: 200px; color: rgb(0, 0, 0);">Stay Updated</h1>
+                <h1 style="font-family:'limelight'; font-size: 50px; color: rgb(0, 0, 0);">Want to start a project?
+                    Let’s talk about making your vision come to life.</h1>
+            </div>
+            <div class="tablets">
+
+                <h1 style="color: rgb(191, 255, 0); font-family: 'limelight'; margin-left: 50px; font-size: 80px; margin-top: 20px;" onclick="window.location.href='contact.html'">
+                    &nbsp; &nbsp;Start project Contact me&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;
+                    &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;<i
+                        class="fa-solid fa-arrow-right"></i></h1>
+            </div>
+            <footer>
+                <a href="#" class="fa fa-facebook"></a>
+                <a href="#" class="fa fa-twitter"></a>
+                <a href="#" class="fa fa-instagram"></a>
+                <a href="#" class="fa fa-youtube"></a>
+                <p>Copyright &copy; 2023 Our Website</p>
+            </footer>
+
+
+
+</body>
+
+</html>
